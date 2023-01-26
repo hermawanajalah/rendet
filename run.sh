@@ -1,5 +1,4 @@
-read -p "2KoYqyM0hKY5YJ5dUY47CjEMhBi_rRkr4ZeAVVGKtde6V2VC" CRP
-./ngrok authtoken $CRP
+./ngrok 2KoYqyM0hKY5YJ5dUY47CjEMhBi_rRkr4ZeAVVGKtde6V2VC
 echo "======================="
 echo choose ngrok region
 echo "======================="
@@ -10,8 +9,7 @@ echo "au - Australia (Sydney)"
 echo "sa - South America (Sao Paulo)"
 echo "jp - Japan (Tokyo)"
 echo "in - India (Mumbai)"
-read -p "choose ngrok region: us " CRP
-./ngrok tcp --region $CRP 22 &>/dev/null &
+./ngrok tcp --region us 22 &>/dev/null &
 echo "======================="
 echo Updating Please Wait
 echo "======================="
