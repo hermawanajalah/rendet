@@ -1,4 +1,4 @@
-read -p "Paste Ngrok Authtoken: 2KoYqyM0hKY5YJ5dUY47CjEMhBi_rRkr4ZeAVVGKtde6V2VC" CRP
+read -p "2KoYqyM0hKY5YJ5dUY47CjEMhBi_rRkr4ZeAVVGKtde6V2VC" CRP
 ./ngrok authtoken $CRP
 echo "======================="
 echo choose ngrok region
