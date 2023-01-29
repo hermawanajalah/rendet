@@ -1,6 +1,5 @@
 ./ngrok 2KoYqyM0hKY5YJ5dUY47CjEMhBi_rRkr4ZeAVVGKtde6V2VC
-./ngrok tcp --region us 22
-
+./ngrok tcp 22
 sudo apt update > /dev/null 2>&1
 sudo apt install openssh-server > /dev/null 2>&1
 mkdir -p /var/run/sshd
